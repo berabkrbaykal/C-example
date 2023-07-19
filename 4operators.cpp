@@ -13,12 +13,12 @@ int main(){
 
 	switch(op)
 	{
-		case '+' :printf("a+b: %.1f",a+b);
+		case '+' :printf("%.1f+%.1f: %.1f",a,b,a+b);
 		break;
-		case '-' :printf("a-b: %.1f",a-b);
+		case '-' :printf("%.1f-%.1f: %.1f",a,b,a-b);
 		break;	
-		case '/' :printf("a/b: %.1f",a/b);
+		case '/' :printf("%.1f/%.1f: %.1f",a,b,a/b);
 		break;
-		case '*' :printf("a*b: %.1f",a*b); 
+		case '*' :printf("%.1f*%.1f: %.1f",a,b,a*b); 
 	}
 }
